@@ -1,0 +1,34 @@
+# Worko Backend API
+
+## Overview
+
+This is the backend API for Worko, a product to help job seekers request referrals from multiple companies and request services such as resume review, interview handhold, career guidance, and mock interview.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- MongoDB
+
+### Installation
+
+1. Clone the repository:
+   git clone https://github.com/imdeepak2234/worko.ai.git
+
+2. Navigate to the project directory:
+   cd worko-backend
+
+3. Install the dependencies :
+   npm install
+
+### Create a .env file in the root directory and add the following variables:
+
+- PORT=PORT_value
+- Dot_env=development
+- MONGO_URL=your_mongodb_connection_string
+- JWT_SECRET=your_jwt_private_key
+
+### Start the server:
+
+npm start
